@@ -7,7 +7,7 @@ from transformers import (
     AutoModelForSequenceClassification,
     AutoModelForCausalLM,
 )
-from guardrails_detectors_common import logger
+from guardrails_detector_common import logger
 from .scheme import (
     ContentAnalysisHttpRequest,
     ContentAnalysisResponse,
